@@ -1,0 +1,163 @@
+/* Fondo general y tipografía */
+body {
+    background: #eaf2fa; /* azul muy suave */
+    color: #1c2a39; /* azul oscuro */
+    font-family: "Segoe UI", sans-serif;
+}
+
+main {
+    max-width: 1050px;
+    margin: auto;
+}
+
+/* Encabezado */
+.header {
+    background: #3b5998; /* azul fuerte */
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header h1, .header h6 {
+    font-weight: 700;
+    color: #ffffff; /* texto blanco */
+}
+
+/* Tarjetas */
+.card-custom, .card {
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    /* Borde azul y hover quitados */
+}
+
+.card-header {
+    background: #94a6cb; /* azul oscuro */
+    color: #ffffff;
+    border-radius: 15px 15px 0 0;
+    font-weight: 600;
+}
+
+/* Iconos */
+.icon-box {
+    height: 70px;
+    width: 70px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 30px;
+    color: #2e4472;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+/* Botones */
+.btn-panaderia, .btn-primary, .btn-success, .btn-danger, .btn-warning {
+    border-radius: 25px;
+    padding: 8px 20px;
+    color: white !important;
+    font-weight: 500;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-panaderia {
+    background: #3b5998; /* azul principal */
+}
+
+.btn-panaderia:hover {
+    background: #2e4472; /* azul oscuro */
+}
+
+.btn-primary {
+    background: #1d3c72; /* azul intenso */
+}
+
+.btn-primary:hover {
+    background: #0f2850;
+}
+
+.btn-success {
+    background: #1a5dab;
+}
+
+.btn-success:hover {
+    background: #13407a;
+}
+
+.btn-danger {
+    background: #e74c3c; /* se mantiene rojo */
+}
+
+.btn-danger:hover {
+    background: #c0392b;
+}
+
+.btn-volver {
+    background-color: #1d3c72;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.btn-volver:hover {
+    background-color: #0f2850;
+}
+
+/* Inputs */
+input, select, textarea {
+    border-radius: 12px;
+    border: 1px solid #2e4472;
+    background: #f1f7fe;
+    color: #1c2a39;
+}
+
+/* Tablas */
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.1);
+}
+
+.table-custom thead {
+    background: #1d3c72; /* azul oscuro intenso */
+    color: white;
+}
+
+.table-custom tbody tr:nth-child(even) {
+    background: #d7e3f7; /* azul pastel suave */
+}
+
+.table-custom tbody tr:nth-child(odd) {
+    background: #eaf2fa; /* azul muy suave */
+}
+
+.table-custom td, .table-custom th {
+    padding: 12px;
+    text-align: center;
+}
+
+/* Paginación */
+.pagination .page-link {
+    border-radius: 20px;
+    color: #1d3c72;
+    border: 1px solid #2e4472;
+}
+
+.pagination .active .page-link {
+    background: #1d3c72;
+    border-color: #1d3c72;
+    color: white;
+}
